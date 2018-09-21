@@ -4,8 +4,23 @@ Time: 320PM-440PM, Tue & Thu, Sep 27 - Oct 30 2018
 
 Location: B1-072, Fred Hutch
 
+  * [Instructor Schedule](#instructor-schedule)
   * [Syllabus](#syllabus)
 
+## Instructor Schedule
+
+| Lecture Date | Instructor       |
+|--------------|------------------|
+| Sep 27       | Jesse Bloom      |
+| Oct 2        | Rasi Subramaniam |
+| Oct 4        | Rasi Subramaniam |
+| Oct 9        | Rasi Subramaniam |
+| Oct 11       | Trevor Bedford   |
+| Oct 16       | Phil Bradley     |
+| Oct 18       | Phil Bradley     |
+| Oct 23       | Jesse Bloom      |
+| Oct 25       | Trevor Bedford   |
+| Oct 30       | Phil Bradley     |
 
 ## Syllabus
 
