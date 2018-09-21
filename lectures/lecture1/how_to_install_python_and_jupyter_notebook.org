@@ -1,0 +1,23 @@
+#+TITLE: How to install Python and Jupyter Notebook
+#+LATEX_ARTICLE_CLASS: article
+#+LATEX_HEADER: \input{/home/rasi/.emacs.d/rasilab_latex_template.tex}
+#+LATEX_HEADER: \usepackage{minted}
+#+DATE:
+
+
+** Windows
+- Download Anaconda from https://www.anaconda.com/download/#windows.
+- Run the installer, all the default options are fine.
+  
+** Mac OS X
+- Download Anaconda from https://www.anaconda.com/download/#macos.
+- Double-click the =.pkg= file, all the default options are fine.
+  
+** Testing Jupyter
+- To run the notebook, run the following command at the Terminal (Mac) or Command Prompt (Windows):
+    #+BEGIN_SRC sh :exports code
+    jupyter notebook
+    #+END_SRC
+- For more details on running the notebook, see [[https://jupyter.readthedocs.io/en/latest/running.html][here]].
+
+For more installation details, see https://jupyter.readthedocs.io/en/latest/install.html.

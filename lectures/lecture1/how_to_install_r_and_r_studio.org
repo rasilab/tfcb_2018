@@ -1,0 +1,84 @@
+#+TITLE: How to install R and R Studio
+#+LATEX_ARTICLE_CLASS: article
+#+LATEX_HEADER: \input{/home/rasi/.emacs.d/rasilab_latex_template.tex}
+#+DATE:
+#+LATEX: \pagenumbering{gobble}
+
+Source: [[https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/][UTAustin edX]] 
+
+* Mac Users
+  :PROPERTIES:
+  :CUSTOM_ID: mac-users
+  :END:
+
+** To Install R
+    :PROPERTIES:
+    :CUSTOM_ID: to-install-r
+    :END:
+
+1. Open an internet browser and go
+   to [[http://www.r-project.org/][www.r-project.org]].
+2. Click the "download R" link in the middle of the page under "Getting
+   Started."
+3. Select a CRAN location (a mirror site) and click the corresponding
+   link.
+4. Click on the "Download R for (Mac) OS X" link at the top of the page.
+5. Click on the file containing the latest version of R under "Files."
+6. Save the .pkg file, double-click it to open, and follow the
+   installation instructions.
+7. Now that R is installed, you need to download and install RStudio.
+
+** To Install RStudio
+    :PROPERTIES:
+    :CUSTOM_ID: to-install-rstudio
+    :END:
+
+1. Go to [[http://www.rstudio.com/][www.rstudio.com]] and click on the
+   "Download RStudio" button.
+2. Click on "Download RStudio Desktop."
+3. Click on the version recommended for your system, or the latest Mac
+   version, save the .dmg file on your computer, double-click it to
+   open, and then drag and drop it to your applications folder.
+
+* Windows Users
+  :PROPERTIES:
+  :CUSTOM_ID: windows-users
+  :END:
+
+** To Install R
+    :PROPERTIES:
+    :CUSTOM_ID: to-install-r-1
+    :END:
+
+1. Open an internet browser and go
+   to [[http://www.r-project.org/][www.r-project.org]].
+2. Click the "download R" link in the middle of the page under "Getting
+   Started."
+3. Select a CRAN location (a mirror site) and click the corresponding
+   link.  
+4. Click on the "Download R for Windows" link at the top of the page.  
+5. Click on the "install R for the first time" link at the top of the
+   page.
+6. Click "Download R for Windows" and save the executable file somewhere
+   on your computer.  Run the .exe file and follow the installation
+   instructions.  
+7. Now that R is installed, you need to download and install RStudio. 
+
+** To Install RStudio
+    :PROPERTIES:
+    :CUSTOM_ID: to-install-rstudio-1
+    :END:
+
+1. Go to [[http://www.rstudio.com/][www.rstudio.com]] and click on the
+   "Download RStudio" button.
+2. Click on "Download RStudio Desktop."
+3. Click on the version recommended for your system, or the latest
+   Windows version, and save the executable file.  Run the .exe file and
+   follow the installation instructions.     
+
+* Testing RStudio
+- Open =Rstudio=. Click =Tools= \rightarrow =Install Packages=. Enter the package name =tidyverse= and press "Install".
+- If your =RStudio= and =tidyverse= installation is working correctly,
+  you should be able to open and run the attached script
+  [[file:example_rmarkdown_document.Rmd]] inside RStudio and see a plot at
+  the bottom of the script.
