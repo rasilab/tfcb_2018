@@ -19,5 +19,7 @@
     jupyter notebook
     #+END_SRC
 - For more details on running the notebook, see [[https://jupyter.readthedocs.io/en/latest/running.html][here]].
+- If your =Anaconda= installation is working correctly, you should be able to open and run the attached =Jupyter notebook= [[file:example_jupyter_notebook.ipynb]] without any error.
+
 
 For more installation details, see https://jupyter.readthedocs.io/en/latest/install.html.

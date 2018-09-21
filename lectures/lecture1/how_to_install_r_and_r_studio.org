@@ -78,7 +78,4 @@ Source: [[https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa
 
 * Testing RStudio
 - Open =Rstudio=. Click =Tools= \rightarrow =Install Packages=. Enter the package name =tidyverse= and press "Install".
-- If your =RStudio= and =tidyverse= installation is working correctly,
-  you should be able to open and run the attached script
-  [[file:example_rmarkdown_document.Rmd]] inside RStudio and see a plot at
-  the bottom of the script.
+- If your =RStudio= and =tidyverse= installation is working correctly, you should be able to open and run the attached script [[file:example_rmarkdown_document.Rmd]]. This should produce an output as shown [[file:example_rmarkdown_document.md][here]].
