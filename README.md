@@ -8,6 +8,7 @@ Location: B1-072, Fred Hutch
   * [Homeworks](#homeworks)
   * [Grading](#grading)
   * [Syllabus](#syllabus)
+  * [Useful References](#references)
 
 ## Instructor Schedule
 
@@ -37,7 +38,7 @@ A total of 4 homeworks will be assigned at 12pm on the following dates and will 
 
 You are encouraged to search online for solutions, and discuss the homework with your classmates. You should however write the assignment answers yourself.
 
-Homeworks should be submitted only as PDF files through <https://canvas.uw.edu>. Note that you can export both `Rmarkdown` documents and `Jupyter` notebooks to PDF. Check that PDF looks as you expected before submission.
+Homeworks should be submitted only as PDF files through <https://canvas.uw.edu>. Note that you can export both `Rmarkdown` documents and `Jupyter` notebooks to PDF. Check before submission that the PDF file looks as you expect it to be.
 
 If you need to submit a homework late, please check with the instructor at least 24 hours before the due date.
 
@@ -184,3 +185,10 @@ Instructor: Trevor Bedford
 * Numpy
 * Scikit-learn
 * **Homework 4 due**
+
+
+## Useful References
+
+- [R for Data Science](http://r4ds.had.co.nz/) by Hadley Wickham
+- [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake Vanderplas
+- [Stack Overflow](https://stackoverflow.com/) website for troubleshooting problems
