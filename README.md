@@ -8,7 +8,7 @@ Location: B1-072, Fred Hutch
   * [Homeworks](#homeworks)
   * [Grading](#grading)
   * [Syllabus](#syllabus)
-  * [Useful References](#references)
+  * [Useful References](#useful-references)
 
 ## Instructor Schedule
 
