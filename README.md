@@ -22,6 +22,28 @@ Location: B1-072, Fred Hutch
 | Oct 25       | Trevor Bedford   |
 | Oct 30       | Phil Bradley     |
 
+## Homeworks and Grading
+
+A total of 4 homeworks will be assigned at 12pm on the following dates and will be due 1 week later at 12pm.
+
+| Assignment Date | Due Date |
+| Oct 4        | Oct 11 |
+| Oct 11       | Oct 18 |
+| Oct 18       | Oct 25 |
+| Oct 25       | Nov 1 |
+
+You are encouraged to search online for solutions, and discuss the homework with your classmates. 
+
+You should however write the assignment answers yourself.
+
+
+Each homework will count for 20% of your final grade.
+
+In-class participation will count for the remaining 20% of your final grade.
+
+Homeworks will be due the following week
+
+
 ## Syllabus
 
 
