@@ -1,16 +1,16 @@
 # MCB 517A: Tools for Computational Biology
 
-Time: 320PM-440PM, Tue & Thu, Sep 27 - Oct 30 2018
-
-Location: B1-072, Fred Hutch
-
-  * [Instructor Schedule](#instructor-schedule)
+  * [Class Schedule](#class-schedule)
   * [Homeworks](#homeworks)
   * [Grading](#grading)
   * [Syllabus](#syllabus)
   * [Useful References](#useful-references)
 
-## Instructor Schedule
+## Class Schedule
+
+Time: 320PM-440PM, Tue & Thu, Sep 27 - Oct 30 2018
+
+Location: B1-072, Fred Hutch
 
 | Lecture Date | Instructor       |
 |--------------|------------------|
