@@ -1,7 +1,7 @@
 Template for analysis in R
 ================
 rasi
-20 September, 2018
+22 September, 2018
 
 -   [Introduction](#introduction)
 -   [Import libraries](#import-libraries)
@@ -27,7 +27,8 @@ Import data
 -----------
 
 ``` r
-data <- read_csv("https://github.com/tidyverse/readr/raw/master/inst/extdata/mtcars.csv")
+# data <- read_csv("https://github.com/tidyverse/readr/raw/master/inst/extdata/mtcars.csv")
+data <- mtcars
 ```
 
 Transform data
@@ -41,22 +42,20 @@ processed_data <- data %>%
 processed_data 
 ```
 
-    ## # A tibble: 13 x 3
-    ##      mpg  qsec  carb
-    ##    <dbl> <dbl> <int>
-    ##  1  21    16.5     4
-    ##  2  21    17.0     4
-    ##  3  22.8  18.6     1
-    ##  4  32.4  19.5     1
-    ##  5  30.4  18.5     2
-    ##  6  33.9  19.9     1
-    ##  7  27.3  18.9     1
-    ##  8  26    16.7     2
-    ##  9  30.4  16.9     2
-    ## 10  15.8  14.5     4
-    ## 11  19.7  15.5     6
-    ## 12  15    14.6     8
-    ## 13  21.4  18.6     2
+    ##     mpg  qsec carb
+    ## 1  21.0 16.46    4
+    ## 2  21.0 17.02    4
+    ## 3  22.8 18.61    1
+    ## 4  32.4 19.47    1
+    ## 5  30.4 18.52    2
+    ## 6  33.9 19.90    1
+    ## 7  27.3 18.90    1
+    ## 8  26.0 16.70    2
+    ## 9  30.4 16.90    2
+    ## 10 15.8 14.50    4
+    ## 11 19.7 15.50    6
+    ## 12 15.0 14.60    8
+    ## 13 21.4 18.60    2
 
 Plot data
 ---------

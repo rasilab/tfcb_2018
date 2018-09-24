@@ -27,7 +27,8 @@ library(tidyverse)
 ## Import data
 
 ```{r}
-data <- read_csv("https://github.com/tidyverse/readr/raw/master/inst/extdata/mtcars.csv")
+# data <- read_csv("https://github.com/tidyverse/readr/raw/master/inst/extdata/mtcars.csv")
+data <- mtcars
 ```
 
 
