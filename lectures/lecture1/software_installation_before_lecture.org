@@ -1,0 +1,5 @@
+#+TITLE: Software to install before the first class
+
+1. Install RStudio and R following the instructions [[file:how_to_install_r_and_r_studio.org][here]].
+2. Install Anaconda and Jupyter Notebook following the instructions [[file:how_to_install_python_and_jupyter_notebook.org][here]].
+3. Install [[https://desktop.github.com/][GitHub for Desktop]]. Make sure you choose the option to install command line tools during the installation.
