@@ -36,7 +36,7 @@ A total of 4 homeworks will be assigned at 12pm on the following dates and will 
 | Oct 18          | Oct 25   |
 | Oct 25          | Nov 1    |
 
-You are encouraged to search online for solutions, and discuss the homework with your classmates. You should however write the assignment answers yourself.
+You are encouraged to search online for solutions, and discuss the homework with your classmates. You should however write the assignment answers yourself. You should also cite the online source or person that helped you arrive at your solution as inline comment in your code.
 
 Homeworks should be submitted only as PDF files through <https://canvas.uw.edu>. Note that you can export both `Rmarkdown` documents and `Jupyter` notebooks to PDF. Check before submission that the PDF file looks as you expect it to be.
 
