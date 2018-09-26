@@ -128,7 +128,7 @@ Instructor: Phil Bradley
 * PATH
 * more commands, eg: grep, find, cat, head
 * Slurm and batch jobs?
-* Vim (mainly for Git commit messages) and/or "emacs -nw"
+* Vim (mainly for `Git` commit messages) and/or "emacs -nw"
 
 
 ### Introduction to Python
