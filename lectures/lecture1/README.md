@@ -57,3 +57,18 @@ On three languages:
 
 ## Good versus bad code
 See [good_vs_bad_code.ipynb](good_vs_bad_code.ipynb).
+
+## Example code in R
+We are now going to go through a real data analysis in R.
+
+Again, you can do "notebooks" in R in Jupyter or in RStudio.
+
+If you want to use R in Jupyter, you need to add `IRkernel`.
+[Here are instructions](https://github.com/IRkernel/IRkernel). They are as follows.
+First, you open R. Then you type:
+
+    install.packages("devtools")
+    devtools::install_github('IRkernel/IRkernel')
+    IRkernel::installspec()
+
+Our example analysis is in the Jupyter notebook at [example_R_analysis.ipynb](example_R_analysis.ipynb).
