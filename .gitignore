@@ -1,0 +1,22 @@
+*.ipynb_checkpoints
+.dropbox
+.DS_Store
+environment*
+*.p
+\.Icon
+\.swp
+\.Icon
+\.swp
+Icon?
+*.gz
+*.fls
+*.fdb_latexmk
+
+# LaTeX intermediaries #
+########################
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.pdfsync
