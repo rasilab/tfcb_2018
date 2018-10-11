@@ -68,14 +68,116 @@ Some things to notice:
 * Include language-specific dependency install file, Python uses `requirements.txt` as standard.
 * Figures are embedded directly in the readme files via Markdown.
 
+More sophisticated examples will use a workflow manager like Snakemake to automate builds. For example:
+
+* Alistair Russell and Jesse Bloom's recent work on single-cell sequencing of influenza: [github.com/jbloomlab/IFNsorted_flu_single_cell/](https://github.com/jbloomlab/IFNsorted_flu_single_cell/)
+
 With GitHub as lingua franca for reproducible research, there are no services built on top of this model. For example:
 
 * [Zenodo](https://zenodo.org/) allows you to mint DOIs from GitHub releases.
 * In [github.com/cboettig/noise-phenomena](https://github.com/cboettig/noise-phenomena), Carl Boettiger provides `.Rmd` of code, but also uses [Binder](https://mybinder.org/) to launch an interactive RStudio session. Binder is described in more detail [here](https://elifesciences.org/labs/a7d53a88/toward-publishing-reproducible-computation-with-binder).
 * We've built [Nextstrain](https://nextstrain.org) to look for results files in public GitHub repos to provide interactive figures. For example [nextstrain.org/community/blab/zika-colombia](https://nextstrain.org/community/blab/zika-colombia) provides an interactive visualization of [Allison Black's](https://bedford.io/team/allison-black/) paper on Zika in Colombia.
 
+### Project communication
+
+For me, as PI, I enforce a further rule:
+
+**_One paper = One GitHub repo = One Slack channel_**
+
+It's _much_ easier if all project communication goes in one place.
+
 ### Further reading
 
 Some suggested readings on reproducible research include:
 
 * [Excellent advice from Karl Broman on initial steps to reproducible research](https://kbroman.org/steps2rr/)
+
+## Project and data organization
+
+It's important to keep a tidy project directory, even if something is not as the stage of being versioned on GitHub.
+
+Much of this advice is borrowed directly from [Karl Broman here](https://kbroman.org/dataorg/) and from [Ciera Martinez et al here](https://datacarpentry.org/rr-organization1/).
+
+Some general advice:
+
+1. **Encapsulate everything within one directory, which is named after the project.** Have a single directory for a project, containing all of the data, code, and results for that project. This makes it easier to find things, or to zip it all up and hand it off to someone else.
+2. **Separate the data from the code.** I prefer to put code and data in separate subdirectories. I’ll often have a `data/` subdirectory and a `scripts/` (or `src`) subdirectory.
+3. **Use relative paths (never absolute paths).** If you encapsulate all data and code within a single project directory, then you can refer to data files with relative paths (e.g., `../data/some_file.csv`). If you were to use an absolute path (like `~/Projects/SomeProject/data/some_file.csv` or `C:\Users\SomeOne\Projects\SomeProject\data\some_file.csv)` then anyone who wanted to reproduce your results but had the project placed in some other location would have to go in and edit all of those directory/file names.
+4. **Write dates as YYYY-MM-DD**. This sorts properly and also avoids ambiguities.
+
+#### File names
+
+Borrowing excellent slide deck from Ciera Martinez and colleagues: [Reproducible Science Workshop: File Naming](https://rawgit.com/Reproducible-Science-Curriculum/rr-organization1/master/organization-01-slides.html#1)
+
+#### File organization
+
+Continuing slide deck from Ciera Martinez and colleagues: [Reproducible Science Workshop: Organization](https://rawgit.com/Reproducible-Science-Curriculum/rr-organization1/master/organization-02-slides.html)
+
+### Further reading
+
+Some suggested readings include:
+
+* [More excellent advice from Karl Broman](https://kbroman.org/dataorg/)
+* [Good Enough Practices for Scientific Computing by Wilson et al.](https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/)
+
+## Version control, Git and GitHub
+
+* Why use version control?
+
+* Introduction to Git and distributed version control: [Basics from Alice Bartlett with Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans)
+
+* Introduction to GitHub
+
+* GitKraken vs command line (and why not GitHub Desktop)
+
+* Demonstration:
+  - Make a new project on GitHub
+  - Make a linear series of commits in GitKraken
+  - Cover same actions on the command line: `git status`, `git add`, `git commit`, `git diff`
+  - Safely exploring history and rolling back if necessary
+  - Amend last commit  
+  - Explain branching and merging in GitKraken
+  - Remotes and push and pull from GitHub  
+  - Pull Requests
+  - Look at files under the hood
+
+* Other details:
+  - The importance of `.gitignore`
+  - The importance of good commit messages, relevant [xkcd](https://xkcd.com/1296/)
+  - Breaking up work and staging / committing different pieces separately
+
+### Further reading
+
+* [The Git parable by Tom Preston-Werner motivates many decisions made by Git](http://tom.preston-werner.com/2009/05/19/the-git-parable.html)
+* [More by Karl Broman](https://kbroman.org/github_tutorial/)
+* [A deeper guide to Git](https://matthew-brett.github.io/curious-git/index.html)
+
+## Intro to the command line
+
+["In the beginning was the command line" by Neal Stephenson](http://cristal.inria.fr/~weis/info/commandline.html)
+
+![](https://i.ytimg.com/vi/MikoF6KZjm0/maxresdefault.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/DEC_VT100_terminal.jpg/1200px-DEC_VT100_terminal.jpg)
+
+Some background:
+* Unix vs DOS
+* Unix commands are structured like lego blocks, example with `ls -lah | wc -l`
+
+Basic navigation / exploration with:
+* `ls` – "list" a directory
+* `cd` - "change directory" and what `.` and `..` mean
+* `open` - open in Finder
+* `cat` - "concatenate" file and how to use write `>` and append `>>`
+* `head` - "head" of file
+* `tail` - "tail" of file
+* `mkdir` - "make directory"
+* `rm` - "remove" file or directory, _there are no guardrails!_
+* `man` - "manual"
+* Globbing with `*`
+* Tab completion
+* Accessing history with up and down arrows
+
+### Further reading
+
+* [Unix cheatsheet](http://cheatsheetworld.com/programming/unix-linux-cheat-sheet/)
+* [Julia Evens writes some wonderful Linux / Unix zines](https://jvns.ca/linux-comics-zine.pdf)
