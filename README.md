@@ -25,7 +25,7 @@ Location: B1-072, Fred Hutch
 | Oct 25       | Trevor Bedford   |
 | Oct 30       | Phil Bradley     |
 
-## Homeworks 
+## Homeworks
 
 A total of 4 homeworks will be assigned at 12pm on the following dates and will be due 1 week later at 12pm.
 
@@ -100,20 +100,16 @@ Instructor: Rasi Subramaniam
 * Visualizing RNA-seq fold changes
 
 
-### Organizing Projects and Working from Command Line
+### [Reproducible Research, Organizing Projects and the Command Line](/lectures/lecture5)
 
 Date: Oct 11
 
 Instructor: Trevor Bedford
 
-* Intro to collaborative science, GitHub, pull requests
-* Using `Git` interesting example for this
-* Project organization, reproducible research
-* Naming files 
-* Intro to command line: rm, mkdir, manipulating file system
-* Globbing
-* Tab completion
-* Searching command history
+* Reproducibility and collaborative science
+* File organization and naming
+* Git and GitHub
+* Intro to the command line
 * **Homework 1 due**
 * **Homework 2 assigned by Trevor**
 
