@@ -60,6 +60,9 @@ A lot of the work we do at the command line involves processing files: reading, 
 
 Here's some [test data to play with](https://www.dropbox.com/s/aqb1af2p9o50qw8/lecture6_data.tgz?dl=1). Download using the link or (even better) from the command line:
 
+Here's another link to a .zip file (for windows?) [zip file](https://www.dropbox.com/s/y9z736wmxpp2ica/lecture6_data.zip)
+
+
 ``` shell
 rhino1 lecture6$ wget https://www.dropbox.com/s/aqb1af2p9o50qw8/lecture6_data.tgz
 ```
