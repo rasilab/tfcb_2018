@@ -174,7 +174,7 @@ Instructor: Trevor Bedford
 
 Date: Oct 25
 
-Instructor: Trevor Bedford
+Instructor: Phil Bradley
 
 * Pandas?
 * Scipy, clustering, linear modeling
