@@ -1,0 +1,148 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -100.4458825,
+     39.7837304
+    ]
+   },
+   "properties": {
+    "title": "USA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -114.049868485806,
+     51.02532675
+    ]
+   },
+   "properties": {
+    "title": "Calgary, Alberta, Canada"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     12.674297,
+     42.6384261
+    ]
+   },
+   "properties": {
+    "title": "Italia"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.999927,
+     35.000074
+    ]
+   },
+   "properties": {
+    "title": "\u4e2d\u56fd"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.4265113,
+     13.2904027
+    ]
+   },
+   "properties": {
+    "title": "Vi\u1ec7t Nam"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.0234991,
+     -27.4689682
+    ]
+   },
+   "properties": {
+    "title": "Brisbane, QLD, 4000, Australia"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     29.4917691,
+     14.5844444
+    ]
+   },
+   "properties": {
+    "title": "\u0627\u0644\u0633\u0648\u062f\u0627\u0646"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -3.2765753,
+     54.7023545
+    ]
+   },
+   "properties": {
+    "title": "UK"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     1.8883335,
+     46.603354
+    ]
+   },
+   "properties": {
+    "title": "France m\u00e9tropolitaine, France"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.53460738161551,
+     52.2379891
+    ]
+   },
+   "properties": {
+    "title": "Nederland"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.2394179,
+     36.5748441
+    ]
+   },
+   "properties": {
+    "title": "\u65e5\u672c"
+   }
+  }
+ ]
+}
