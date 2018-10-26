@@ -109,22 +109,22 @@ Instructor: Trevor Bedford
 * Reproducibility and collaborative science
 * File organization and naming
 * Git and GitHub
-* Intro to the command line
 * **Homework 1 due**
 * **Homework 2 assigned by Trevor**
 
 
-### More Command Line
+### Command Line
 
 Date: Oct 16
 
 Instructor: Phil Bradley
 
-* Compiling, test on rhino, “there exists software that needs to be compiled”
-* PATH
+* Intro to the command line
 * more commands, eg: grep, find, cat, head
-* Slurm and batch jobs?
-* Vim (mainly for `Git` commit messages) and/or "emacs -nw"
+* PATH
+* ~~Compiling, test on rhino, “there exists software that needs to be compiled”~~
+* ~~Slurm and batch jobs~~
+* ~~Vim (mainly for `Git` commit messages) and/or "emacs -nw"~~
 
 
 ### Introduction to Python
@@ -138,7 +138,6 @@ Instructor: Phil Bradley
 * Variables and constants
 * For, while loops
 * Functions
-* Dictionaries?
 * **Homework 2 due**
 * **Homework 3 assigned by Phil Bradley**
 
@@ -149,23 +148,22 @@ Date: Oct 23
 
 Instructor: Jesse Bloom
 
+* Dictionaries
 * String analysis and regular expressions
 * File I/O
-* Matplotlib
 * Biopython
-* Other topics chosen by instructor
 
 
-### Data Structures and Packages in Python
+### Data Structures in Python
 
 Date: Oct 25
 
 Instructor: Trevor Bedford
 
-* Dictionaries
+* Matplotlib
+* Numpy
 * Iterators / list comprehension
-* Classes
-* Pandas?
+* ~~Classes~~
 * **Homework 3 due**
 * **Homework 4 assigned by Jesse Bloom**
 
@@ -178,7 +176,6 @@ Instructor: Phil Bradley
 
 * Pandas?
 * Scipy, clustering, linear modeling
-* Numpy
 * Scikit-learn
 * **Homework 4 due**
 
