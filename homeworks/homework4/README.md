@@ -22,7 +22,7 @@ But there are a few things we did **not** do in that example, and performing tho
 
 ### Question 1.1: Extending the match
 The regular expression match in the homework only requires a match with the `AGGCGGCCGC` sequence upstream of the barcode.
-But as explained in the description of the reads, we further know that this upstream sequence should match the 3' end of HA or NA (the two possible expected sequences are given in the lecture 8 Jupyter notebook).
+But as explained in the description of the reads in the [lecture 8 Jupyter notebook](https://github.com/rasilab/tfcb_2018/blob/master/lectures/lecture8/lecture_8.ipynb), we further know that this upstream sequence should match the 3' end of HA or NA (the two possible expected sequences are given in the lecture 8 Jupyter notebook).
 Write a new regular expression object that uses the _or_ operator to require that upstream of the `AGGCGGCCGC` we find either the expected HA or NA sequence. 
 Read [this](https://stackoverflow.com/questions/8609597/python-regular-expressions-or) or [this](ocs.python.org/3/library/re.html#regular-expression-syntax) to learn how to do that. 
 Call the group that consists of this upstream sequence `ha_or_na` (recall that this is done by using a `?P<ha_or_na>` at the beginning of the group).
